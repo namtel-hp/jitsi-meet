@@ -159,7 +159,7 @@ class SettingsView extends AbstractSettingsView<Props, State> {
                         <TextInput
                             autoCorrect = { false }
                             onChangeText = { this._onChangeDisplayName }
-                            placeholder = 'John Doe'
+                            placeholder = 'Nguyen Nhat'
                             textContentType = { 'name' } // iOS only
                             value = { displayName } />
                     </FormRow>
@@ -171,7 +171,7 @@ class SettingsView extends AbstractSettingsView<Props, State> {
                             autoCorrect = { false }
                             keyboardType = { 'email-address' }
                             onChangeText = { this._onChangeEmail }
-                            placeholder = 'email@example.com'
+                            placeholder = 'namtel@saza.vn'
                             textContentType = { 'emailAddress' } // iOS only
                             value = { email } />
                     </FormRow>
