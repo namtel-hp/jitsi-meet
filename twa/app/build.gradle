@@ -19,7 +19,7 @@ import groovy.xml.MarkupBuilder
 apply plugin: 'com.android.application'
 
 def twaManifest = [
-    applicationId: 'org.jitsi.meet',
+    applicationId: 'vn.saza.meet',
     hostName: 'meet.jit.si', // The domain being opened in the TWA.
     launchUrl: '/', // The start path for the TWA. Must be relative to the domain.
     name: 'Jitsi Meet', // The application name.
